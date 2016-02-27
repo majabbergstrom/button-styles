@@ -13,16 +13,18 @@ div {
 }
 
 .btn {
+  display: inline-block;
   font-size: 1.125rem;
-  background-color: #000;
+  background-color: #333;
   color: #fff;
   border-radius: 8px;
   padding: 0.4em;
   text-decoration: none;
-  border: 3px solid #000;
+  border: 3px solid #333;
 }
 
 .btn-subtle {
+  display: inline-block;
   font-size: 1.125rem;
   background-color: #ccc;
   color: #fff;
@@ -33,6 +35,7 @@ div {
 }
 
 .btn-ghost {
+  display: inline-block;
   font-size: 1.125rem;
   background-color: #fff;
   color: #333;
@@ -43,6 +46,7 @@ div {
 }
 
 .btn-warning {
+  display: inline-block;
   font-size: 1.125rem;
   background-color: #f33;
   color: #fff;
@@ -53,16 +57,18 @@ div {
 }
 
 .btn-small {
+  display: inline-block;
   font-size: 0.875rem;
-  background-color: #000;
+  background-color: #333;
   color: #fff;
   border-radius: 8px;
   padding: 0.4em;
   text-decoration: none;
-  border: 3px solid #000;
+  border: 3px solid #333;
 }
 
 .btn-subtle-small {
+  display: inline-block;
   font-size: 0.875rem;
   background-color: #ccc;
   color: #fff;
@@ -73,6 +79,7 @@ div {
 }
 
 .btn-ghost-small {
+  display: inline-block;
   font-size: 0.875rem;
   background-color: #fff;
   color: #333;
@@ -83,6 +90,7 @@ div {
 }
 
 .btn-warning-small {
+  display: inline-block;
   font-size: 0.875rem;
   background-color: #f33;
   color: #fff;
@@ -93,16 +101,18 @@ div {
 }
 
 .btn-big{
+  display: inline-block;
   font-size: 1.5rem;
-  background-color: #000;
+  background-color: #333;
   color: #fff;
   border-radius: 8px;
   padding: 0.4em;
   text-decoration: none;
-  border: 3px solid #000;
+  border: 3px solid #333;
 }
 
 .btn-subtle-big {
+  display: inline-block;
   font-size: 1.5rem;
   background-color: #ccc;
   color: #fff;
@@ -113,6 +123,7 @@ div {
 }
 
 .btn-ghost-big {
+  display: inline-block;
   font-size: 1.5rem;
   background-color: #fff;
   color: #333;
@@ -123,6 +134,7 @@ div {
 }
 
 .btn-warning-big {
+  display: inline-block;
   font-size: 1.5rem;
   background-color: #f33;
   color: #fff;
@@ -130,4 +142,67 @@ div {
   padding: 0.4em;
   text-decoration: none;
   border: 3px solid #f33;
+}
+
+.btn:hover {
+  background-color: #000;
+  border: 3px solid #000;
+}
+
+.btn-small:hover {
+  background-color: #000;
+  border: 3px solid #000;
+}
+
+.btn-big:hover {
+  background-color: #000;
+  border: 3px solid #000;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+  border: 3px solid #666;
+}
+
+.btn-subtle-small:hover {
+  background-color: #666;
+  border: 3px solid #666;
+}
+
+.btn-subtle-big:hover {
+  background-color: #666;
+  border: 3px solid #666;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  color: #fff;
+  border: 3px solid #666;
+}
+
+.btn-ghost-small:hover {
+  background-color: #666;
+  color: #fff;
+  border: 3px solid #666;
+}
+
+.btn-ghost-big:hover {
+  background-color: #666;
+  color: #fff;
+  border: 3px solid #666;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+  border: 3px solid #933;
+}
+
+.btn-warning-small:hover {
+  background-color: #933;
+  border: 3px solid #933;
+}
+
+.btn-warning-big:hover {
+  background-color: #933;
+  border: 3px solid #933;
 }
