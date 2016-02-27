@@ -18,130 +18,77 @@ div {
   background-color: #333;
   color: #fff;
   border-radius: 8px;
-  padding: 0.4em;
+  padding: 0.4em 0.75em 0.3em;
   text-decoration: none;
   border: 3px solid #333;
 }
 
 .btn-subtle {
-  display: inline-block;
-  font-size: 1.125rem;
   background-color: #ccc;
   color: #fff;
-  border-radius: 8px;
-  padding: 0.4em;
-  text-decoration: none;
-  border: 3px solid #ccc;
+  border-color: #ccc;
 }
 
 .btn-ghost {
-  display: inline-block;
-  font-size: 1.125rem;
   background-color: #fff;
   color: #333;
-  border-radius: 8px;
-  padding: 0.4em;
-  text-decoration: none;
-  border: 3px solid #333;
+  border-color: #333;
 }
 
 .btn-warning {
-  display: inline-block;
-  font-size: 1.125rem;
   background-color: #f33;
   color: #fff;
-  border-radius: 8px;
-  padding: 0.4em;
-  text-decoration: none;
-  border: 3px solid #f33;
+  border-color: #f33;
 }
 
 .btn-small {
-  display: inline-block;
   font-size: 0.875rem;
-  background-color: #333;
-  color: #fff;
-  border-radius: 8px;
-  padding: 0.4em;
-  text-decoration: none;
-  border: 3px solid #333;
 }
 
 .btn-subtle-small {
-  display: inline-block;
   font-size: 0.875rem;
   background-color: #ccc;
   color: #fff;
-  border-radius: 8px;
-  padding: 0.4em;
-  text-decoration: none;
-  border: 3px solid #ccc;
+  border-color: #ccc;
 }
 
 .btn-ghost-small {
-  display: inline-block;
   font-size: 0.875rem;
   background-color: #fff;
   color: #333;
-  border-radius: 8px;
-  padding: 0.4em;
-  text-decoration: none;
-  border: 3px solid #333;
+  border-color: #333;
 }
 
 .btn-warning-small {
-  display: inline-block;
   font-size: 0.875rem;
   background-color: #f33;
   color: #fff;
-  border-radius: 8px;
-  padding: 0.4em;
-  text-decoration: none;
-  border: 3px solid #f33;
+  border-color: #f33;
 }
 
-.btn-big{
-  display: inline-block;
+.btn-big {
   font-size: 1.5rem;
-  background-color: #333;
-  color: #fff;
-  border-radius: 8px;
-  padding: 0.4em;
-  text-decoration: none;
-  border: 3px solid #333;
 }
 
 .btn-subtle-big {
-  display: inline-block;
   font-size: 1.5rem;
   background-color: #ccc;
   color: #fff;
-  border-radius: 8px;
-  padding: 0.4em;
-  text-decoration: none;
-  border: 3px solid #ccc;
+  border-color: #ccc;
 }
 
 .btn-ghost-big {
-  display: inline-block;
   font-size: 1.5rem;
   background-color: #fff;
   color: #333;
-  border-radius: 8px;
-  padding: 0.4em;
-  text-decoration: none;
-  border: 3px solid #333;
+  border-color: #333;
 }
 
 .btn-warning-big {
-  display: inline-block;
   font-size: 1.5rem;
   background-color: #f33;
   color: #fff;
-  border-radius: 8px;
-  padding: 0.4em;
-  text-decoration: none;
-  border: 3px solid #f33;
+  border-color: #f33;
 }
 
 .btn:hover {
